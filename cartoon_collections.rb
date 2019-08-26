@@ -23,6 +23,7 @@ def find_the_cheese(array)# code an argument here
     if cheese_types.each do |cheese_found|
       cheese_found.include? (array)
       return cheese_found
+      end
 end
 
 end
