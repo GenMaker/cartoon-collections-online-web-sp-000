@@ -19,7 +19,6 @@ end
 
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
-  cheese_found=[]
   cheese_types = ["cheddar", "gouda", "camembert"]
     cheese_found = if cheese_types.find (array)
       return cheese_found
